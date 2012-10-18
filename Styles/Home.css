@@ -1,0 +1,47 @@
+﻿body 
+{
+    width:80%;
+    margin:auto;
+}
+#Home_Mate_Home_Headline
+{
+    width:100%;
+    margin:auto;
+}
+.Home_Mate_Page_Head
+{
+    width:80%;
+    margin:auto;
+    background:orange;
+}
+.Home_Mate_Page_Body
+{
+    width:80%;
+    margin:auto;
+    border:1px solid;
+    height:500px;
+}
+.Home_Mate_Page_Footer
+{
+    width:80%;
+    margin:auto;
+}
+/*   Registration Page  */
+#tbl_Reg_Reg_Page
+{
+   width:90%;
+   margin:auto;
+}
+.err_Reg
+{
+    position:relative;
+    color:red;
+    float:left;
+    width:auto;
+}
+/* Login Page */
+#tbl_Login_Login_Page
+{
+   width:90%;
+   margin:auto;
+}

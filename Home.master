@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <%--<title></title>--%>
+    <link href="Styles/Home.css" rel="stylesheet" type="text/css" />
+    <script type ="text/javascript" src="Scripts/Home.js"></script>
+    
+    <asp:ContentPlaceHolder id="Head_Home" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class ="Home_Mate_Page_Head">
+        <table id ="Home_Mate_Home_Headline">
+            <tr>
+                <td>
+                    <h1>Kisstronics Hospitals</h1>
+                </td>
+                <td>
+                    <asp:Label ID="lbl_Status_Home_Mater" runat="server" ></asp:Label><br />
+                    <asp:HyperLink ID ="hl_Login_Home_Master" runat ="server" >Login</asp:HyperLink>
+                </td>
+            </tr>
+        </table>
+     </div>
+    
+    <div class ="Home_Mate_Page_Body">
+        <asp:ContentPlaceHolder id="Body_Home" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class ="Home_Mate_Page_Footer">
+        <h4>Kisstorincis is the Brand of Humanity</h4>
+    </div>
+    </form>
+</body>
+</html>
